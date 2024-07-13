@@ -1,7 +1,7 @@
 /* Para dispositivos com largura menor que 768px */
 body {
     padding-bottom: 200px;
-    background-image: url("Images/fundo.png");
+    background-image: url("images/fundo.png");
     /* Outras propriedades de estilo (opcional) */
     background-repeat: no-repeat; /* Evita repetição da imagem */
     background-size: cover; /* Ajusta a imagem para cobrir toda a div */
