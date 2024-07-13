@@ -1,0 +1,67 @@
+/* Para dispositivos com largura menor que 768px */
+body {
+    padding-bottom: 200px;
+    background-image: url("Images/fundo.png");
+    /* Outras propriedades de estilo (opcional) */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    background-size: cover; /* Ajusta a imagem para cobrir toda a div */
+    /* ... outras propriedades ... */
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body > header {
+    padding: 16px 0;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h3, h1, h2 {
+    color: #ecf0f1;
+}
+
+.social-media img {
+    height: 28px;
+}
+
+.social-media li {
+    display: inline;
+    margin-right: 16px;
+}
+
+.social-media li a {
+    text-decoration: none;
+}
+
+#myCarousel {
+
+    margin-bottom: 32px; /*Ajuste conforme necessário */
+
+}
+
+
+/* Para dispositivos com largura maior ou igual a 768px */
+/* @media (min-width: 768px) {
+body { */
+    /* padding-top: 10px;
+    padding-bottom: 200px; */
+/* }
+} */
+
+@media screen and (min-width: 820px) and (max-width: 1180px) {
+    .col-md-4 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+}
