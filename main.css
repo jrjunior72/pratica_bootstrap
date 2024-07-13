@@ -45,19 +45,8 @@ h3, h1, h2 {
 }
 
 #myCarousel {
-
     margin-bottom: 32px; /*Ajuste conforme necessário */
-
 }
-
-
-/* Para dispositivos com largura maior ou igual a 768px */
-/* @media (min-width: 768px) {
-body { */
-    /* padding-top: 10px;
-    padding-bottom: 200px; */
-/* }
-} */
 
 @media screen and (min-width: 820px) and (max-width: 1180px) {
     .col-md-4 {
